@@ -1,0 +1,37 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #e5989b;
+}
+
+.introsection {
+    background-color: #b5838d;
+    height: 100%;
+    width: 550px;
+    display: inline-block;
+}
+
+.introheader {
+    font-family: cursive;
+    text-align: center;
+    font-size: 55px;
+    font-style: italic;
+    color: #4a4e69;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.introsubtitle {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 5px;
+    color: #6d6875;
+}
+
+.intropar {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif2;
+    font-size: 17px;
+    color: #edf6f9;
+}
