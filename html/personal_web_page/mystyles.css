@@ -1,17 +1,16 @@
 html, body {
     height: 100%;
     margin: 0;
-    background-color: #e5989b;
 }
 
-.introsection {
+.intro-section {
     background-color: #b5838d;
     height: 100%;
     width: 550px;
     display: inline-block;
 }
 
-.introheader {
+.intro-header {
     font-family: cursive;
     text-align: center;
     font-size: 55px;
@@ -21,7 +20,7 @@ html, body {
     margin-bottom: 5px;
 }
 
-.introsubtitle {
+.intro-subtitle {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     font-style: italic;
@@ -30,8 +29,26 @@ html, body {
     color: #6d6875;
 }
 
-.intropar {
+.intro-par {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif2;
     font-size: 17px;
     color: #edf6f9;
+}
+
+.container {
+    background-color: #e5989b;
+    display: flex;
+    height: 100%;
+}
+
+.contact-header {
+    color: #22223b;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    font-style: italic;
+    text-align: center;
+}
+
+.flexy-boi {
+    flex-grow: 1;
 }
