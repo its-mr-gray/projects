@@ -1,6 +1,16 @@
 html, body {
     height: 100%;
+    width: 100%;
     margin: 0;
+}
+
+
+.container {
+    background-color: #e5989b;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
 }
 
 .intro-section {
@@ -35,20 +45,53 @@ html, body {
     color: #edf6f9;
 }
 
-.container {
-    background-color: #e5989b;
-    display: flex;
+.split-page {
+    flex-grow: 1;
     height: 100%;
+    width: 100%;
 }
 
-.contact-header {
-    color: #22223b;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 60px;
-    font-style: italic;
+.secondary-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.work-header {
+    color: #3d405b;
+    font-size: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 15px;
     text-align: center;
 }
 
-.flexy-boi {
-    flex-grow: 1;
+.nested-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.content-box {
+    display: flex;
+    background-color: #3d405b;
+    height: 400px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 300px;
+    margin: 75px;
+    border-radius: 25px;
+}
+
+.resume-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.resume-content a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #f7ede2;
+    font-size: 35px;
 }
