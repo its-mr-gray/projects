@@ -1,4 +1,5 @@
 html, body {
+    background-color: #84a59d;
     overflow: hidden;
     height: 100%;
     width: 100%;
@@ -6,21 +7,3 @@ html, body {
     padding: 0;
 }
 
-.container {
-    display: flex;
-}
-
-.header-flex {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: auto;
-    background-color: #ffadad;
-    justify-content: space-around;
-    font-family: 'Poppins', sans-serif;
-}
-
-.option-flex {
-    display: flex;
-    flex-direction: row;
-}
